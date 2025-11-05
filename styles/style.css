@@ -316,4 +316,23 @@
   .content-section {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .why .text-blocks {
+    grid-column: 2 / -1;
+  }
+
+  .what .text-blocks {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--main-gap);
+  }
+
+  .what .text-blocks .text-block {
+    margin-block-start: 0;
+  }
+
+  .how .text-blocks {
+    grid-column: 2 / -1;
+  }
 }
