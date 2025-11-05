@@ -1,5 +1,5 @@
 .page {
-  background-image: url(../images/cover-image-dark.png);
+  background-image: url('/images/cover-image-dark.png');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -180,6 +180,12 @@
 
 .text-block__paragraph {
   margin-block-start: var(--main-gap);
+  line-height: var(--main-line-height);
+}
+
+.section-how__title,
+.text-block__subheading {
+  font-size: var(--main-text-size);
   line-height: var(--main-line-height);
 }
 

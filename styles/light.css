@@ -10,7 +10,7 @@
 }
 
 .theme-light .page {
-  background-image: url(../images/cover-image-light.png);
+  background-image: url('../images/cover-image-light.png');
 }
 
 .theme-light .header__rec {
@@ -38,7 +38,7 @@
   }
 
   .page {
-    background-image: url(../images/cover-image-light.png);
+    background-image: url('../images/cover-image-light.png');
   }
 
   .header_rec {

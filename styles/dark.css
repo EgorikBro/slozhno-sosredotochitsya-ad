@@ -10,7 +10,7 @@
 }
 
 .theme-dark .page {
-  background-image: url(../images/cover-image-dark.png);
+  background-image: url('../images/cover-image-dark.png');
 }
 
 .theme_dark .header__rec {
