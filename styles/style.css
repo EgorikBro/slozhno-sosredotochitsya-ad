@@ -85,14 +85,9 @@
   text-transform: lowercase;
   background-color: transparent;
   cursor: pointer;
-  appearance: none;
 }
 
-.header__theme-menu-button:focus {
-  outline: none;
-}
-
-.header__theme-menu-button:focus-visible:after {
+.header__theme-menu-button:focus:after {
   content: '';
   position: absolute;
   inline-size: 100%;
@@ -271,7 +266,6 @@
 
   .what .text-blocks {
     grid-column: 1/-1;
-    grid-row: 2 span;
   }
 
   .grid {
