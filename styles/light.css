@@ -1,4 +1,3 @@
-/* Переменные для светлой темы */
 :root.theme-light {
   --accent-color: #ff8dcb;
   --main-bg-color: #fff117;
@@ -10,17 +9,14 @@
   --section-heading-color: #353430;
 }
 
-/* Фоновое изображение для светлой темы */
-.theme-light .site-container {
+.theme-light .page {
   background-image: url('../images/cover-image-light.png');
 }
 
-/* Скрываем индикатор записи в светлой теме */
-.theme-light .top-block__indicator {
+.theme-light .header__rec {
   display: none;
 }
 
-/* Активная кнопка в светлой теме */
 .theme-light .header__theme-menu-button_active {
   border: 1px solid var(--nav-color);
 }
@@ -29,7 +25,6 @@
   --nav-hover-color: rgb(50 49 45 / 0.4);
 }
 
-/* Автоматическая светлая тема по системным настройкам */
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
@@ -42,11 +37,11 @@
     --footer-logo-color: #ffc2e6;
   }
 
-  .site-container {
+  .page {
     background-image: url('../images/cover-image-light.png');
   }
 
-  .top-block__indicator {
+  .header_rec {
     display: none;
   }
 
