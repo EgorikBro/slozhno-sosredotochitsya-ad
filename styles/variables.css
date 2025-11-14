@@ -1,4 +1,3 @@
-/* CSS переменные для основной темы */
 :root {
   --main-font-family: 'IBM Plex mono', monospace;
   --main-gap: 10px;
@@ -16,7 +15,6 @@
   --footer-logo-color: #db00ff;
 }
 
-/* Увеличенные отступы и размеры для планшетов */
 @media (width >= 768px) {
   :root {
     --main-gap: 20px;
